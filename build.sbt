@@ -1,11 +1,9 @@
 import Dependencies._
 
-ThisBuild / scalaVersion := "3.3.8"
+ThisBuild / scalaVersion := "3.9.0"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalacOptions := Seq(
-  "-encoding",
-  "UTF-8",
   "-no-indent",
   "-deprecation",
   "-feature",
@@ -15,7 +13,6 @@ ThisBuild / scalacOptions := Seq(
   "-Werror",
   "-Wvalue-discard",
   "-Wnonunit-statement",
-  "-Xlint:all",
   "-Xcheck-macros",
   "-Xmax-inlines:64"
 )
